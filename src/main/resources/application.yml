@@ -11,6 +11,16 @@ spring:
   h2:
     console:
       enabled: true
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 550520084333-96jn9uipu8ufehpc0uptfdnue2q9r4c6.apps.googleusercontent.com
+            client-secret: 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GOCSPX...
+            scope:
+              - email
+              - profile
 
 jwt:
   issuer: ajufresh@gmail.com
